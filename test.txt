@@ -1,5 +1,5 @@
 local  http_request = syn.request
-whitelist = "D8903A045B764A2828F2EAD4F30A59B088BC"
+whitelist = "3A729445-F274-4108-B6D4-4772B8DB4AA8"
 whitelist = "88c67c10545a77ecb1af0191746569f3ed6999a0df08d2d30d007dcd00555529534b5f8d38fff7e30cb1a23d2580671fe9770f3096b4f0aedb97c10492192955"
 local body = http_request({Url = 'https://httpbin.org/get'; Method = 'GET'}).Body;
 local decoded = game:GetService('HttpService'):JSONDecode(body)
