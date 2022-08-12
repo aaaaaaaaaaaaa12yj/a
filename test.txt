@@ -15,7 +15,7 @@ setclipboard(hwid)
 
 wait()
 if hwid == whitelist then
-print("whitelisted")
+print("Whitelisted -- Loading Admin")
 else
- print("not whitelisted")
+ print("Blacklisted or not Whitelisted")
  end
